@@ -1,1 +1,1 @@
-REST API с использованием Spring Security (кастомыне фильтры) и JWT
+REST API с использованием Spring Security (кастомные фильтры) и JWT
