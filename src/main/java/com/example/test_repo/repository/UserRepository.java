@@ -8,12 +8,12 @@ import java.util.List;
 @Repository
 public class UserRepository {
 
-    private List<User> users;
+    private final List<User> users;
 
     public UserRepository() {
         this.users = List.of(
-                new User("1test_", "qwerty", "Andrej", "Golev", "a@aq.com", 32),
-                new User("2test_", "ytrewq", "Pavel", "Sokolov", "1@qa.com", 23));
+                new User("1", "1", "Andrej", "Golev", "a@aq.com", 32),
+                new User("2", "2", "Pavel", "Sokolov", "1@qa.com", 23));
     }
 
     public User getUserByLogin(String login) {
